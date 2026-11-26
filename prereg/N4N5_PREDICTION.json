@@ -1,0 +1,101 @@
+{
+ "created": "2026-11-23T16:31:12+07:00",
+ "prereg": "prereg/COST_MODEL_V2_PREREG.md (sha256 5f70ae4a...)",
+ "note": "Predictions from frozen model v2 (params fitted on wave-1 N1-N3) + e_net from session-A full-engine measurement only; written BEFORE any other N4/N5 path is measured.",
+ "nets": {
+  "n4": {
+   "net": "n4",
+   "e_net_mJ_per_GFLOP": 11.011385532287798,
+   "c_full_meas": 6.62388293437039,
+   "params": {
+    "kappa_trunc": 0.1585692315409687,
+    "theta_chain": 0.18787684873973873,
+    "beta_mJ_per_MB": 2.4520732811956023,
+    "kappa_cond": 0.5460015442610999
+   },
+   "prediction_mJ": {
+    "fp16_full_p4": 6.62388293437039,
+    "fp16_trunc_p1": 1.8324746051598826,
+    "fp16_trunc_p2": 2.6585011786066137,
+    "fp16_trunc_p3": 4.79720612083399,
+    "fp16_chain_p1": 1.8617822223586524,
+    "fp16_cond_p1": 7.196664168246014,
+    "fp16_chain_p2": 3.2490197034613324,
+    "fp16_cond_p2": 7.196664168246014,
+    "fp16_chain_p3": 5.70427455277825,
+    "fp16_cond_p3": 7.196664168246014,
+    "fp16_chain_p4": 7.986587356490904,
+    "fp16_cond_p4": 7.196664168246014
+   },
+   "rho_star_pred": {
+    "chain_1": 0.22248943309664634,
+    "chain_2": 0.28763798681568037,
+    "chain_3": 0.5970717159820481
+   },
+   "rho_cond": "never profitable (path-independent cost)",
+   "bytes_MB": {
+    "1": 0,
+    "2": 0.150528,
+    "3": 0.200704,
+    "4": 0.238336
+   },
+   "F_GFLOP": {
+    "full_4": 0.601548544,
+    "trunc_1": 0.152015872,
+    "trunc_2": 0.227031552,
+    "trunc_3": 0.42125824,
+    "chain_1": 0.152015872,
+    "chain_2": 0.227415552,
+    "chain_3": 0.42215424,
+    "chain_4": 0.603980544
+   }
+  },
+  "n5": {
+   "net": "n5",
+   "e_net_mJ_per_GFLOP": 2.494123495747245,
+   "c_full_meas": 22.94036081716525,
+   "params": {
+    "kappa_trunc": 0.1585692315409687,
+    "theta_chain": 0.18787684873973873,
+    "beta_mJ_per_MB": 2.4520732811956023,
+    "kappa_cond": 0.5460015442610999
+   },
+   "prediction_mJ": {
+    "fp16_full_p4": 22.94036081716525,
+    "fp16_trunc_p1": 6.111346853788908,
+    "fp16_trunc_p2": 11.773874585428013,
+    "fp16_trunc_p3": 17.436402317067113,
+    "fp16_chain_p1": 6.140654470987679,
+    "fp16_cond_p1": 23.492108821960553,
+    "fp16_chain_p2": 12.363963417363026,
+    "fp16_cond_p2": 23.492108821960553,
+    "fp16_chain_p3": 18.58727236373837,
+    "fp16_cond_p3": 23.492108821960553,
+    "fp16_chain_p4": 24.81058131011372,
+    "fp16_cond_p4": 23.492108821960553
+   },
+   "rho_star_pred": {
+    "chain_1": 0.10017288814592999,
+    "chain_2": 0.150259332218895,
+    "chain_3": 0.30051866443779
+   },
+   "rho_cond": "never profitable (path-independent cost)",
+   "bytes_MB": {
+    "1": 0,
+    "2": 0.151296,
+    "3": 0.302592,
+    "4": 0.45388800000000007
+   },
+   "F_GFLOP": {
+    "full_4": 9.197764608,
+    "trunc_1": 2.38672128,
+    "trunc_2": 4.657069056,
+    "trunc_3": 6.927416832,
+    "chain_1": 2.38672128,
+    "chain_2": 4.657837056,
+    "chain_3": 6.928952832,
+    "chain_4": 9.200068608
+   }
+  }
+ }
+}

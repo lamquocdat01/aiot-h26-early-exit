@@ -1,0 +1,29 @@
+# environments and outputs
+.venv/
+__pycache__/
+*.pyc
+out/
+
+# never commit credentials or local configuration
+.env
+*.env
+kaggle.json
+.kaggle/
+
+# large artefacts (not part of this repository)
+*.onnx
+*.engine
+*.plan
+*.pt
+*.pth
+*.npy
+*.npz
+data/
+cifar-100-python/
+*.tar.gz
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

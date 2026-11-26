@@ -1,0 +1,12 @@
+# reproduction of numbers, tables and figures (reproduce/run_all.py); tested with Python 3.11.9
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.69.1
+kiwisolver==1.5.1
+matplotlib==3.8.4
+numpy==2.0.2
+packaging==26.4
+pillow==13.0.0
+pyparsing==3.3.3
+python-dateutil==4.0.0
+tzdata==2026.6

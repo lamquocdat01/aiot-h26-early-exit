@@ -1,0 +1,28 @@
+{
+ "net": "n2",
+ "seed": 9201,
+ "flip_test": [
+  0.005,
+  0.0027,
+  0.0014,
+  0.0009
+ ],
+ "flip_holdout": [
+  0.0058,
+  0.002,
+  0.002,
+  0.0012
+ ],
+ "pass_test_le_1pct": true,
+ "flip_engines_1k": {
+  "full": 0.002,
+  "trunc1": 0.008,
+  "trunc2": 0.001,
+  "trunc3": 0.0,
+  "cond_p1": 0.008,
+  "cond_p2": 0.001,
+  "cond_p3": 0.0,
+  "cond_p4": 0.002
+ },
+ "pass_engines_le_1pct": true
+}
